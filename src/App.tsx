@@ -127,7 +127,9 @@ function App() {
     <div className="app-shell">
       <header className="header">
         <div className="branding">
-          <div className="logo-mark">SV</div>
+          <div className="logo-mark">
+            <img src="/favicon.png" className="logo-img" alt="logo" />
+          </div>
           <div>
             <h1>{t('title')}</h1>
           </div>
